@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343F1EF11D2E218E00106AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F1EF01D2E218E00106AB0 /* AppDelegate.swift */; };
+		343F1EF31D2E218E00106AB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F1EF21D2E218E00106AB0 /* ViewController.swift */; };
+		343F1EF61D2E218E00106AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343F1EF41D2E218E00106AB0 /* Main.storyboard */; };
+		343F1EF81D2E218E00106AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343F1EF71D2E218E00106AB0 /* Assets.xcassets */; };
+		343F1EFB1D2E218E00106AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 343F1EF91D2E218E00106AB0 /* LaunchScreen.storyboard */; };
+		343F1F061D2E218E00106AB0 /* JobSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F1F051D2E218E00106AB0 /* JobSearchTests.swift */; };
+		343F1F111D2E218E00106AB0 /* JobSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343F1F101D2E218E00106AB0 /* JobSearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		343F1F021D2E218E00106AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 343F1EE51D2E218D00106AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 343F1EEC1D2E218D00106AB0;
+			remoteInfo = JobSearch;
+		};
+		343F1F0D1D2E218E00106AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 343F1EE51D2E218D00106AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 343F1EEC1D2E218D00106AB0;
+			remoteInfo = JobSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		343F1EED1D2E218D00106AB0 /* JobSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		343F1EF01D2E218E00106AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		343F1EF21D2E218E00106AB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		343F1EF51D2E218E00106AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		343F1EF71D2E218E00106AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		343F1EFA1D2E218E00106AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		343F1EFC1D2E218E00106AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343F1F011D2E218E00106AB0 /* JobSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		343F1F051D2E218E00106AB0 /* JobSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSearchTests.swift; sourceTree = "<group>"; };
+		343F1F071D2E218E00106AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343F1F0C1D2E218E00106AB0 /* JobSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		343F1F101D2E218E00106AB0 /* JobSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSearchUITests.swift; sourceTree = "<group>"; };
+		343F1F121D2E218E00106AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343F1EEA1D2E218D00106AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343F1EFE1D2E218E00106AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343F1F091D2E218E00106AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		343F1EE41D2E218D00106AB0 = {
+			isa = PBXGroup;
+			children = (
+				343F1EEF1D2E218E00106AB0 /* JobSearch */,
+				343F1F041D2E218E00106AB0 /* JobSearchTests */,
+				343F1F0F1D2E218E00106AB0 /* JobSearchUITests */,
+				343F1EEE1D2E218D00106AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		343F1EEE1D2E218D00106AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				343F1EED1D2E218D00106AB0 /* JobSearch.app */,
+				343F1F011D2E218E00106AB0 /* JobSearchTests.xctest */,
+				343F1F0C1D2E218E00106AB0 /* JobSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		343F1EEF1D2E218E00106AB0 /* JobSearch */ = {
+			isa = PBXGroup;
+			children = (
+				343F1EF01D2E218E00106AB0 /* AppDelegate.swift */,
+				343F1EF21D2E218E00106AB0 /* ViewController.swift */,
+				343F1EF41D2E218E00106AB0 /* Main.storyboard */,
+				343F1EF71D2E218E00106AB0 /* Assets.xcassets */,
+				343F1EF91D2E218E00106AB0 /* LaunchScreen.storyboard */,
+				343F1EFC1D2E218E00106AB0 /* Info.plist */,
+			);
+			path = JobSearch;
+			sourceTree = "<group>";
+		};
+		343F1F041D2E218E00106AB0 /* JobSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				343F1F051D2E218E00106AB0 /* JobSearchTests.swift */,
+				343F1F071D2E218E00106AB0 /* Info.plist */,
+			);
+			path = JobSearchTests;
+			sourceTree = "<group>";
+		};
+		343F1F0F1D2E218E00106AB0 /* JobSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				343F1F101D2E218E00106AB0 /* JobSearchUITests.swift */,
+				343F1F121D2E218E00106AB0 /* Info.plist */,
+			);
+			path = JobSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		343F1EEC1D2E218D00106AB0 /* JobSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343F1F151D2E218E00106AB0 /* Build configuration list for PBXNativeTarget "JobSearch" */;
+			buildPhases = (
+				343F1EE91D2E218D00106AB0 /* Sources */,
+				343F1EEA1D2E218D00106AB0 /* Frameworks */,
+				343F1EEB1D2E218D00106AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobSearch;
+			productName = JobSearch;
+			productReference = 343F1EED1D2E218D00106AB0 /* JobSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		343F1F001D2E218E00106AB0 /* JobSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343F1F181D2E218E00106AB0 /* Build configuration list for PBXNativeTarget "JobSearchTests" */;
+			buildPhases = (
+				343F1EFD1D2E218E00106AB0 /* Sources */,
+				343F1EFE1D2E218E00106AB0 /* Frameworks */,
+				343F1EFF1D2E218E00106AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				343F1F031D2E218E00106AB0 /* PBXTargetDependency */,
+			);
+			name = JobSearchTests;
+			productName = JobSearchTests;
+			productReference = 343F1F011D2E218E00106AB0 /* JobSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		343F1F0B1D2E218E00106AB0 /* JobSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343F1F1B1D2E218E00106AB0 /* Build configuration list for PBXNativeTarget "JobSearchUITests" */;
+			buildPhases = (
+				343F1F081D2E218E00106AB0 /* Sources */,
+				343F1F091D2E218E00106AB0 /* Frameworks */,
+				343F1F0A1D2E218E00106AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				343F1F0E1D2E218E00106AB0 /* PBXTargetDependency */,
+			);
+			name = JobSearchUITests;
+			productName = JobSearchUITests;
+			productReference = 343F1F0C1D2E218E00106AB0 /* JobSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		343F1EE51D2E218D00106AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Adecco;
+				TargetAttributes = {
+					343F1EEC1D2E218D00106AB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M6Q7EY94PU;
+					};
+					343F1F001D2E218E00106AB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M6Q7EY94PU;
+						TestTargetID = 343F1EEC1D2E218D00106AB0;
+					};
+					343F1F0B1D2E218E00106AB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M6Q7EY94PU;
+						TestTargetID = 343F1EEC1D2E218D00106AB0;
+					};
+				};
+			};
+			buildConfigurationList = 343F1EE81D2E218D00106AB0 /* Build configuration list for PBXProject "JobSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 343F1EE41D2E218D00106AB0;
+			productRefGroup = 343F1EEE1D2E218D00106AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				343F1EEC1D2E218D00106AB0 /* JobSearch */,
+				343F1F001D2E218E00106AB0 /* JobSearchTests */,
+				343F1F0B1D2E218E00106AB0 /* JobSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		343F1EEB1D2E218D00106AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343F1EFB1D2E218E00106AB0 /* LaunchScreen.storyboard in Resources */,
+				343F1EF81D2E218E00106AB0 /* Assets.xcassets in Resources */,
+				343F1EF61D2E218E00106AB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343F1EFF1D2E218E00106AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343F1F0A1D2E218E00106AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343F1EE91D2E218D00106AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343F1EF31D2E218E00106AB0 /* ViewController.swift in Sources */,
+				343F1EF11D2E218E00106AB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343F1EFD1D2E218E00106AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343F1F061D2E218E00106AB0 /* JobSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343F1F081D2E218E00106AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343F1F111D2E218E00106AB0 /* JobSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		343F1F031D2E218E00106AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 343F1EEC1D2E218D00106AB0 /* JobSearch */;
+			targetProxy = 343F1F021D2E218E00106AB0 /* PBXContainerItemProxy */;
+		};
+		343F1F0E1D2E218E00106AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 343F1EEC1D2E218D00106AB0 /* JobSearch */;
+			targetProxy = 343F1F0D1D2E218E00106AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		343F1EF41D2E218E00106AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				343F1EF51D2E218E00106AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		343F1EF91D2E218E00106AB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				343F1EFA1D2E218E00106AB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		343F1F131D2E218E00106AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		343F1F141D2E218E00106AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		343F1F161D2E218E00106AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JobSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.JobSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		343F1F171D2E218E00106AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JobSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.JobSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		343F1F191D2E218E00106AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JobSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.JobSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobSearch.app/JobSearch";
+			};
+			name = Debug;
+		};
+		343F1F1A1D2E218E00106AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JobSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.JobSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JobSearch.app/JobSearch";
+			};
+			name = Release;
+		};
+		343F1F1C1D2E218E00106AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JobSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.JobSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JobSearch;
+			};
+			name = Debug;
+		};
+		343F1F1D1D2E218E00106AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JobSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adecco.JobSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JobSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		343F1EE81D2E218D00106AB0 /* Build configuration list for PBXProject "JobSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343F1F131D2E218E00106AB0 /* Debug */,
+				343F1F141D2E218E00106AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343F1F151D2E218E00106AB0 /* Build configuration list for PBXNativeTarget "JobSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343F1F161D2E218E00106AB0 /* Debug */,
+				343F1F171D2E218E00106AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		343F1F181D2E218E00106AB0 /* Build configuration list for PBXNativeTarget "JobSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343F1F191D2E218E00106AB0 /* Debug */,
+				343F1F1A1D2E218E00106AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		343F1F1B1D2E218E00106AB0 /* Build configuration list for PBXNativeTarget "JobSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343F1F1C1D2E218E00106AB0 /* Debug */,
+				343F1F1D1D2E218E00106AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 343F1EE51D2E218D00106AB0 /* Project object */;
+}
